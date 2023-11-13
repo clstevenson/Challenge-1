@@ -5,7 +5,10 @@
     margin: 0;
 }
 
-/* Element selectors **********************************************************/
+/*****************************************************************************/
+/*                             Element Selectors                             */
+/*****************************************************************************/
+
 body {
     background-color: #d9dcd6;
 }
@@ -19,8 +22,11 @@ p {
     font-size: 16px;
 }
 
-/* Class selectors begin *******************************************************/
-/* Header/navigational area */
+/*****************************************************************************/
+/*                              Class Selectors                              */
+/*****************************************************************************/
+
+/* Header/navigational area **************************************************/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -54,7 +60,7 @@ p {
     margin-left: 25px;
 }
 
-/* Bkgd image of meeting div (decorative) */
+/* Bkgd image of meeting div (decorative image) ******************************/
 .hero {
     height: 800px;
     width: 100%;
@@ -64,8 +70,11 @@ p {
     background-position: center;
 }
 
-/* Styling of the main content area ********************************************/
-/* Layout */
+/*****************************************************************************/
+/*                             Main Content Area                             */
+/*****************************************************************************/
+
+/* Layout ********************************************************************/
 .content {
     width: 75%;
     display: inline-block;
@@ -86,7 +95,7 @@ p {
     font-size: 36px;
 }
 
-/* Images in content area */
+/* Images in the content area ************************************************/
 .content-tile img {
     max-height: 200px;
 }
@@ -101,7 +110,10 @@ p {
     margin-left: 25px;
 }
 
-/* Styling of the Benefits sidebar *********************************************/
+/*****************************************************************************/
+/*                              Benefits Sidebar                             */
+/*****************************************************************************/
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -129,7 +141,10 @@ p {
     max-width: 150px;
 }
 
-/* Styling of the Footer *******************************************************/
+/*****************************************************************************/
+/*                                   Footer                                  */
+/*****************************************************************************/
+
 .footer {
     padding: 30px;
     clear: both;
@@ -137,7 +152,6 @@ p {
     text-align: center;
 }
 
-/* Stying of footer area */
 .footer h4 {
     font-size: 20px;
 }
