@@ -64,17 +64,8 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-/* Styling of main content area */
+/****** Styling of main content area ******/
+/* Layout */
 .content {
     width: 75%;
     display: inline-block;
@@ -90,16 +81,27 @@ p {
     color: #ffffff;
 }
 
-.content-tile img {
-    max-height: 200px;
-}
-
 .content-tile h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* Styling of Benefits sidebar */
+/* Images in content area */
+.content-tile img {
+    max-height: 200px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/******** Styling of Benefits sidebar *********/
 .benefits {
     margin-right: 20px;
     padding: 20px;
